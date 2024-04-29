@@ -1,0 +1,16 @@
+{
+    "add_is_visible": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 16,
+        "width": 16
+    },
+    "display": "Relative Positioner",
+    "events": {
+        "AAQ": {
+            "caption": "Watched element loses focus (user clicks elsewhere)",
+            "name": "loses_focus"
+        }
+    },
+    "icon": "ion-android-bus"
+}

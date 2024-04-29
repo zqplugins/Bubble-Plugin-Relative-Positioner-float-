@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAC": {
+            "name": "tether min",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1585616779290x802446523517728000/tether.min.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "4",
+        "use_jquery": true
+    }
+}

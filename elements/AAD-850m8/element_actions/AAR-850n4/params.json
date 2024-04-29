@@ -1,0 +1,14 @@
+{
+    "caption": "Add blur detector",
+    "fields": {
+        "AAS": {
+            "caption": "Watched element",
+            "doc": "The ID of the element that will trigger the event if it loses focus, in another words, detects when the user clicks outside of it. Useful to make a floating group (picked element) disappear when the user clicks elsewhere.",
+            "editor": "DynamicValue",
+            "name": "watched_element",
+            "optional": false,
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}
