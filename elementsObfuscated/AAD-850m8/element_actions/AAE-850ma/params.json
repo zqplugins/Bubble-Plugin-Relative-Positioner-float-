@@ -1,0 +1,86 @@
+{
+    "caption": "Pick and position element",
+    "fields": {
+        "AAF": {
+            "caption": "Element to be picked",
+            "doc": "The ID of the element to be picked and that will float relative to another. If you are building a tooltip or context menu this element is the tooltip or context menu.",
+            "editor": "DynamicValue",
+            "name": "element_to_be_picked",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Anchor element",
+            "doc": "The ID of the element that will serve as reference. This one is the anchor. The element that will stay in place while the other one comes to this one.",
+            "editor": "DynamicValue",
+            "name": "element_to_serve_as_anchor",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Placement",
+            "doc": "Options:   | 'auto'   | 'auto-start'   | 'auto-end'   | 'top'   | 'top-start'   | 'top-end'   | 'bottom'   | 'bottom-start'   | 'bottom-end'   | 'right'   | 'right-start'   | 'right-end'   | 'left'   | 'left-start'   | 'left-end';",
+            "editor": "DynamicValue",
+            "name": "placement",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Strategy",
+            "default_val": "absolute",
+            "doc": "Options: \"absolute\" and \"fixed\". Use fixed in case the reference/anchor element is fixed too and the \"absolute\" option doesn't works.",
+            "editor": "DynamicValue",
+            "name": "strategy",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Skidding",
+            "doc": "Optional. Represents the horizontal offset.",
+            "editor": "DynamicValue",
+            "name": "skidding",
+            "optional": true,
+            "rank": 9,
+            "value": "number"
+        },
+        "AAO": {
+            "caption": "Displacement",
+            "doc": "Optional. Represents the vertical offset.",
+            "editor": "DynamicValue",
+            "name": "displacement",
+            "optional": true,
+            "rank": 10,
+            "value": "number"
+        },
+        "AAa": {
+            "caption": "Offset",
+            "editor": "Label",
+            "name": "offset",
+            "rank": 4
+        },
+        "AAc": {
+            "caption": "When you specify an offset, it affects the positioning of the child element relative to its reference element. The offset can be positive or negative, and it applies in the direction of the placement.",
+            "editor": "Label",
+            "name": "offset_info",
+            "rank": 5
+        },
+        "AAd": {
+            "caption": "Top/Bottom placement: Skidding - moves element right/left, Displacement- moves element up/down depending if the values are positive or negative.",
+            "editor": "Label",
+            "name": "offset_info1",
+            "rank": 6
+        },
+        "AAe": {
+            "caption": "Left/Right placement - Skidding- moves element up/down, Displacement- moves element right/left depending if the values are positive or negative.",
+            "editor": "Label",
+            "name": "offset_info2",
+            "rank": 7
+        },
+        "AAf": {
+            "caption": "For a better understanding please inform yourself on Offset CSS property and how does it works depending on the relative element positioning.",
+            "editor": "Label",
+            "name": "offset_general",
+            "rank": 8
+        }
+    }
+}
